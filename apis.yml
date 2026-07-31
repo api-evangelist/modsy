@@ -1,7 +1,22 @@
 aid: modsy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/modsy.png
 name: Modsy *
-description: 'Modsy * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Modsy was a consumer interior-design startup founded in 2015 offering online interior design
+  with 3D room visualization technology. In 2022 it shifted away from consumer design services to focus on
+  its core 3D home technology, and on August 30, 2023 its IP and team became part of Lennar to pursue the
+  next generation of 3D innovation for the home. Surfaced as a portfolio company of gv and added to the API
+  Evangelist network. No public developer or API surface exists.'
 url: https://raw.githubusercontent.com/api-evangelist/modsy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +26,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Interior Design
+- 3D Visualization
+- Home
+- Real Estate
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +41,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/modsy-domain-security.yml
 - type: Website
   url: https://www.modsy.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
