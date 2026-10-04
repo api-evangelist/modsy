@@ -44,7 +44,7 @@ tags:
 - Interior Design
 - 3D Visualization
 - Homes
-- Real-Estate
+- Real Estate
 tags_raw:
 - Company
 - Consumer
@@ -52,6 +52,7 @@ tags_raw:
 - 3D Visualization
 - Home
 - Real Estate
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
